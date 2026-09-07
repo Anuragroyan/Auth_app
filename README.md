@@ -1,6 +1,6 @@
 🔐 Authentication UI App
 
-Authentication UI App is a React Native application that demonstrates login and signup workflows without relying on a database or backend. The project focuses on building a clean and user-friendly authentication experience with form validation, password handling, navigation, and structured login and registration screens.
+Authentication UI App is a React Native Expo application that demonstrates login and signup workflows without relying on a database or backend. The project focuses on building a clean and user-friendly authentication experience with form validation, password handling, navigation, and structured login and registration screens.
 
 ✨ Key Features
 
@@ -25,7 +25,7 @@ Since the project does not use a backend or database, authentication functionali
 
 🛠️ Tech Stack
 
-React Native • JavaScript • React Navigation • Form Validation • State Management • Responsive UI
+React Native • Expo • JavaScript • React Navigation • Form Validation • State Management • Responsive UI
 
 ▶️ Run the App
 
@@ -33,14 +33,22 @@ React Native • JavaScript • React Navigation • Form Validation • State M
 
 npm install
 
-2. Start Metro
+2. Start Expo
 
-npm start
+npx expo start
 
 3. Run on Android
 
-npm run android
+npx expo start --android
+
+4. Run on iOS
+
+npx expo start --ios
+
+5. Run on Web
+
+npx expo start --web
 
 🎯 Project Purpose
 
-This project demonstrates how to create a clean authentication interface in React Native without backend complexity. It provides practical experience with form validation, password handling, navigation, input states, error handling, and designing user-friendly login and registration workflows.
+This project demonstrates how to create a clean authentication interface in React Native and Expo without backend complexity. It provides practical experience with form validation, password handling, navigation, input states, error handling, and designing user-friendly login and registration workflows.
